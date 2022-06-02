@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Line, Bar, Doughnut } from "react-chartjs-2";
-import { NavLink } from "react-router-dom";
 // import Data from "./jsondata";
 import Accordion from "@mui/material/Accordion";
 import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Chart, registerables } from "chart.js";
 import { Divider } from "@mui/material";
 import axios from "axios";
@@ -284,7 +282,6 @@ function Home() {
           <Accordion>
             <AccordionSummary
               style={{ background: "#150f16" }}
-              // expandIcon={<ExpandMoreIcon />}
               
               aria-controls="panel1a-content"
               id="panel1a-header"
@@ -477,7 +474,6 @@ function Home() {
           <Accordion>
             <AccordionSummary
               style={{ background: "#150f16" }}
-              // expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
@@ -707,7 +703,6 @@ function Home() {
           <Accordion onClick={show}>
             <AccordionSummary
               style={{ background: "#150f16" }}
-              // expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
@@ -899,7 +894,6 @@ function Home() {
           <Accordion onClick={show1}>
             <AccordionSummary
               style={{ background: "#150f16" }}
-              // expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
@@ -1128,7 +1122,6 @@ function Home() {
           <Accordion onClick={show2}>
             <AccordionSummary
               style={{ background: "#150f16" }}
-              // expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
@@ -1227,7 +1220,6 @@ function Home() {
           <Accordion onClick={show3}>
             <AccordionSummary
               style={{ background: "#150f16" }}
-              // expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
@@ -1356,7 +1348,6 @@ function Home() {
           <Accordion onClick={show4}>
             <AccordionSummary
               style={{ background: "#150f16" }}
-              // expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
@@ -1445,7 +1436,6 @@ function Home() {
           <Accordion onClick={show5}>
             <AccordionSummary
               style={{ background: "#150f16" }}
-              // expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
@@ -1560,7 +1550,6 @@ function Home() {
           <Accordion onClick={show6}>
             <AccordionSummary
               style={{ background: "#150f16" }}
-              // expandIcon={<ExpandMoreIcon />}
               aria-controls="panel1a-content"
               id="panel1a-header"
             >
