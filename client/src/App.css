@@ -1,0 +1,109 @@
+body{
+  background: #181019;
+  text-align: justify;
+}
+.col-sm-auto::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.table::-webkit-scrollbar {
+  width: 5px;
+  height: 0px;
+}
+.dashboardScroll::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(131, 131, 131);
+  /* border-radius: 15px; */
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(48, 48, 48);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(32, 32, 32);
+}
+.menu_active {
+  border-right: 4px solid rgb(6, 81, 219);
+}
+.nav-link {
+  color: balck;
+  background-color: white;
+}
+
+.fa {
+  background-color: transparent;
+}
+li {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+li label{
+  color: white;
+}
+
+.nav-link.menu_active {
+  color: rgb(6, 81, 219);
+}
+td,
+th {
+  border: 1.5px solid #646464;
+  padding: 15px 5px;
+  color: white;
+  font-size: 12px;
+}
+input[type="radio"]{
+  cursor: pointer;
+}
+
+.country.dropdown-menu{
+  min-width: fit-content !important;
+}
+#countries {
+  display: none;
+}
+#year {
+  display: none;
+}
+#sector {
+  display: none;
+}
+#topics {
+  display: none;
+}
+#region {
+  display: none;
+}
+#pestle {
+  display: none;
+}
+#source {
+  display: none;
+}
+#panel1a-header {
+  font-weight: 600;
+}
+
+#navbarSupportedContent{
+  background-color: transparent;
+  /* position: relative; */
+}
+
+
+@media (max-width: 1000px) {
+  #navbarSupportedContent {
+    background-color: black;
+    top: 30px;
+    right: 0px;
+    position: absolute;
+  }
+
+}
+
